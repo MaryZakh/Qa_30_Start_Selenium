@@ -86,7 +86,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.Index.tableTest">
+  <component name="RunManager" selected="Gradle.Index.cssLocators">
     <configuration name="Index.cssLocators" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -161,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Index.tableTest" />
         <item itemvalue="Gradle.Index.cssLocators" />
+        <item itemvalue="Gradle.Index.tableTest" />
         <item itemvalue="Gradle.StartSelenium.test" />
       </list>
     </recent_temporary>

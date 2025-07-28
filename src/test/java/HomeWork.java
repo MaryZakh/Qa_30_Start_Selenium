@@ -25,5 +25,12 @@ public class HomeWork {
 
         List<WebElement> list = wd.findElements(By.tagName("a"));
         List<WebElement>list1 = wd.findElements(By.cssSelector("a"));
+
+        //by class
+
+        //by id
+
+        //by attribute
+
     }
 }
