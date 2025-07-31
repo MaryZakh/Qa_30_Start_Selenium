@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="59a7337a-25c7-4249-81fe-e0e7f80fc6e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Index.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +76,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Cat.byCssSelectors.executor": "Run",
+    "Gradle.HomeWork.classwork.executor": "Run",
     "Gradle.HomeWork.cssSelectors.executor": "Run",
     "Gradle.Index.cssLocators.executor": "Run",
     "Gradle.Index.tableTest.executor": "Run",

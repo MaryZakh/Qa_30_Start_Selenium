@@ -81,16 +81,39 @@ public class HomeWork {
 
         //ancestor-or-self
         WebElement el6 = wd.findElement(By.xpath("//h1/ancestor-or-self::*"));
-        List<WebElement>list = wd.findElements(By.xpath("//h1/ancestor-or-self::*"));
+        List<WebElement> list = wd.findElements(By.xpath("//h1/ancestor-or-self::*"));
 
         //following-sibling
-        List<WebElement>list1 = wd.findElements(By.xpath("//h1/following-sibling::*"));
+        List<WebElement> list1 = wd.findElements(By.xpath("//h1/following-sibling::*"));
         WebElement el7 = wd.findElement(By.xpath("//h1/following-sibling::a[3]"));
         WebElement el8 = wd.findElement(By.xpath("//h1/following-sibling::a[last()]"));
 
         //preceding-sibling
         WebElement el9 = wd.findElement(By.xpath("//a[@href='/login']/preceding-sibling::*"));
         WebElement el10 = wd.findElement(By.xpath("//a[@href='/login']/preceding-sibling::a[2]"));
+
+    }
+
+
+    @Test
+    public void classwork2() {
+        WebElement loginButton = wd.findElement(By.cssSelector("[name='login']"));
+        String text = loginButton.getText();
+        System.out.println(text);
+
+        WebElement form = wd.findElement(By.xpath("//form"));
+        String textform = form.getText();
+        System.out.println("***************");
+        System.out.println(textform);
+
+        WebElement html = wd.findElement(By.tagName("html"));
+        String textAll = html.getText();
+        System.out.println("***************");
+        System.out.println(textAll);
+
+        WebElement br = wd.findElement(By.tagName("br"));
+        System.out.println("***************");
+        System.out.println("text br--->" + br.getText());
 
     }
 
